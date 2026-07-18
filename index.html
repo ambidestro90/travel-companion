@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b6877"><meta name="description" content="App personale per organizzare viaggi">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="assets/css/app.css"><title>Travel Companion</title>
+</head>
+<body><div class="shell">
+<header class="hero"><h1>Travel Companion</h1><p>Il tuo archivio personale per viaggi, documenti e promemoria.</p><span class="badge" id="countdown">Caricamento…</span></header>
+<nav class="tabs">
+<button class="active" data-tab="home">🏠<br>Home</button><button data-tab="trip">✈️<br>Viaggio</button><button data-tab="docs">📄<br>Documenti</button><button data-tab="more">☰<br>Altro</button>
+</nav>
+<main>
+<section id="home" class="panel active">
+<div class="card"><h2>I miei viaggi</h2>
+<div class="trip"><div class="emoji">🇪🇬</div><div class="grow"><strong>Sharm el-Sheikh 2026</strong><div class="muted">19–26 luglio · Coral Sea Holiday Resort</div></div><span class="status">Attivo</span></div>
+</div>
+<div class="card info"><h3>Oggi</h3><div class="grid">
+<div class="tile"><strong>Pratica</strong><span class="muted">2937488</span></div><div class="tile"><strong>Viaggiatori</strong><span class="muted">4 persone</span></div>
+<div class="tile"><strong>Partenza</strong><span class="muted">Bergamo 10:15</span></div><div class="tile"><strong>Resort</strong><span class="muted">Nabq Bay</span></div>
+</div></div>
+<div class="card warn"><h3>Contatti rapidi</h3>
+<a class="btn danger" href="tel:+390258286000">Europ Assistance 24/7</a>
+<a class="btn" href="tel:+3901119682471">Alpitour Servizio Amico</a>
+<p class="muted">Prima di sostenere spese mediche, contatta la Centrale Operativa.</p></div>
+</section>
+
+<section id="trip" class="panel">
+<div class="card"><h2>Sharm el-Sheikh 2026</h2><dl>
+<dt>Andata</dt><dd>19 luglio 2026 · Bergamo → Sharm · 10:15–17:20</dd>
+<dt>Convocazione</dt><dd>07:45 ai banchi indicati sui monitor</dd>
+<dt>Ritorno</dt><dd>26 luglio 2026 · arrivo previsto a Bergamo alle 21:35</dd>
+<dt>Hotel</dt><dd>Coral Sea Holiday Resort, Nabq Bay</dd>
+</dl></div>
+<div class="card"><h3>Parcheggio P3 Smart</h3><dl>
+<dt>Prenotazione</dt><dd>643HF8M</dd><dt>PIN</dt><dd>UX4749</dd>
+<dt>Indirizzo</dt><dd>Via Campo Grande, 24052 Bergamo</dd>
+<dt>Nota</dt><dd>Navetta gratuita H24. Non usare la corsia Telepass.</dd>
+</dl>
+<a class="btn secondary" href="https://maps.google.com/?q=Via+Campo+Grande+24052+Bergamo">Apri nel navigatore</a></div>
+</section>
+
+<section id="docs" class="panel">
+<div class="card"><h2>Documenti del viaggio</h2>
+<div class="doc"><span>Libretto assicurativo – parte 1</span><a href="docs/sharm-2026/libretto-assicurativo-parte1.pdf">Apri</a></div>
+<div class="doc"><span>Libretto assicurativo – parte 2</span><a href="docs/sharm-2026/libretto-assicurativo-parte2.pdf">Apri</a></div>
+<p class="muted">Nelle prossime versioni aggiungeremo voucher, voli, Parkos e archivio personale offline.</p></div>
+</section>
+
+<section id="more" class="panel">
+<div class="card"><h2>Checklist partenza</h2><div class="progress"><div class="bar" id="bar"></div></div><p id="progressText" class="muted"></p>
+<div id="checklist">
+<label class="check"><input type="checkbox" data-save="doc-validi">Documenti validi per l'espatrio</label>
+<label class="check"><input type="checkbox" data-save="voucher">Voucher e prenotazioni</label>
+<label class="check"><input type="checkbox" data-save="parkos">Barcode e PIN Parkos</label>
+<label class="check"><input type="checkbox" data-save="esim">eSIM configurata</label>
+<label class="check"><input type="checkbox" data-save="farmaci">Farmaci e ricette</label>
+<label class="check"><input type="checkbox" data-save="solari">Creme solari e doposole</label>
+</div></div>
+<div class="card"><h3>Versione</h3><p><b>0.1.0</b> · Base multi-viaggio, PWA e funzionamento offline.</p></div>
+</section>
+</main></div><footer>Dati principali disponibili offline dopo il primo accesso</footer>
+<script src="assets/js/app.js"></script></body></html>

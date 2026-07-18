@@ -1,0 +1,47 @@
+{
+  "trips": [
+    {
+      "id": "sharm-2026",
+      "title": "Sharm el-Sheikh 2026",
+      "country": "Egitto",
+      "emoji": "🇪🇬",
+      "start": "2026-07-19",
+      "end": "2026-07-26",
+      "status": "active",
+      "destination": "Coral Sea Holiday Resort, Nabq Bay",
+      "booking": "2937488",
+      "travelers": [
+        "Giuseppe",
+        "Gloria",
+        "Gioele",
+        "Ginevra"
+      ],
+      "flight": {
+        "outbound": "Bergamo → Sharm el-Sheikh",
+        "departure": "19 luglio 2026, 10:15",
+        "arrival": "19 luglio 2026, 17:20",
+        "meeting": "Convocazione alle 07:45",
+        "return": "26 luglio 2026, arrivo previsto a Bergamo alle 21:35"
+      },
+      "parking": {
+        "name": "P3 Smart Orio al Serio",
+        "booking": "643HF8M",
+        "pin": "UX4749",
+        "address": "Via Campo Grande, 24052 Bergamo",
+        "notes": "Navetta gratuita H24. Non usare la corsia Telepass."
+      },
+      "assistance": [
+        {
+          "label": "Europ Assistance 24/7",
+          "value": "+39 02 58 28 60 00",
+          "href": "tel:+390258286000"
+        },
+        {
+          "label": "Alpitour Servizio Amico",
+          "value": "+39 011 19682471",
+          "href": "tel:+3901119682471"
+        }
+      ]
+    }
+  ]
+}
