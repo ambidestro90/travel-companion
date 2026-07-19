@@ -1,19 +1,21 @@
 # Travel Companion
 
-## Versione 0.2.0 – Sharm Ready
-Versione operativa per il viaggio a Sharm el-Sheikh.
+## Versione 1.0 – Sharm Edition
 
-### Novità
-- piano completo della partenza;
-- avviso urgente sugli orari Parkos;
-- dati volo, hotel e parcheggio;
-- contatti Alpitour ed Europ Assistance;
-- numeri di emergenza in Egitto;
-- checklist famiglia e bagagli;
-- note e spese salvate localmente;
-- archivio personale offline tramite IndexedDB;
-- aggiornamento PWA e cache offline.
+PWA installabile e utilizzabile offline per il viaggio della famiglia Bruno a Sharm el-Sheikh.
 
-### Aggiornamento su GitHub
-Sostituire nel repository i file presenti nel pacchetto mantenendo la stessa struttura.
-Messaggio commit suggerito: `Versione 0.2 Sharm Ready`.
+### Funzioni
+- piano della partenza;
+- voli, hotel e Parkos;
+- QR rapidi;
+- assistenza sanitaria ed emergenze;
+- archivio documenti offline;
+- checklist separate per ogni componente della famiglia;
+- spese e convertitore manuale;
+- diario giornaliero;
+- assistente rapido locale;
+- funzionamento offline.
+
+### Aggiornamento
+Caricare tutti i file nella radice del repository GitHub e confermare la sostituzione.
+Messaggio commit consigliato: `Versione 1.0 Sharm Edition`.
